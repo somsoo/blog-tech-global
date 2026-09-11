@@ -66,7 +66,7 @@ def get_golden_keyword_and_source():
     {json.dumps(history[-30:])}
     
     Select exactly ONE overarching "Golden Keyword" (2-5 words) that offers maximum analytical substance and search relevance.
-    Return ONLY a JSON object: {"golden_keyword": "Chosen Keyword"}
+    Return ONLY a JSON object: {{"golden_keyword": "Chosen Keyword"}}
     """
     try:
         res = generate_with_retry(prompt, is_json=True)
