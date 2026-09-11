@@ -1,0 +1,10 @@
+title: "Tech & AI Global Insights"
+description: "In-depth enterprise analysis on Artificial Intelligence, Cloud Infrastructure, and Semis."
+url: "https://tech-global.enjoy-onepage.com"
+baseurl: ''
+theme: minima
+permalink: /:year/:month/:day/:title/
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
